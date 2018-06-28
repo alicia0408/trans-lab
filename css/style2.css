@@ -46,3 +46,32 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.btn-group{
+	margin-left: 3em;
+	position: relative;
+	bottom: -10em;
+
+
+	
+	
+}
+.btn-group button {
+    background-color: #f3ab04 ; /* Green background */
+    border: 1px solid yellow; /* Green border */
+    color: white; /* White text */
+    padding: 15px 30px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 250px; /* Set a width if needed */
+	display: block; /* Make the buttons appear below each other */
+	
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color:  #f3ab04;
+}
