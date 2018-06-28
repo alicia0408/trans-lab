@@ -57,7 +57,7 @@
     border-bottom: none; 
 }
 
-
+/* Add a background color on hover */
 .btn-group button:hover {
     background-color:  #f3ab04;
 }
