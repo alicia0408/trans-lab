@@ -5,7 +5,34 @@ body{
 .img1{
 	width: 150px;
 	height: 150px;
-margin: 6em;
-margin-bottom: 3em;
+    margin: 6em;
+   margin-bottom: 0;
 }
 /*f3ab04*/
+h1{
+	color: #f3ab04;
+	font-size: 30px;
+	font-weight: 900;
+	margin-left: 2em;
+	
+}
+
+ .btn{
+	 background-color: #f3ab04;
+	 color: darkblue;
+	 margin-left: 6em;
+ }
+ #mail{
+	 background-color: white;
+	 width: 300px;
+	
+ }
+
+ #exampleInputPassword1{
+	 background-color: white;
+	 width: 300px;
+
+ }
+ #icono1{
+	 transform: translate(100px);
+ }
