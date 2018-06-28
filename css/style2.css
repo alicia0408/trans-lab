@@ -1,71 +1,63 @@
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%; 
+    width: 0; 
+    position: fixed; /* se queda estatico en el sitio */
+    z-index: 1; 
+    top: 0; 
     left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    background-color:white; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+	border:1px solid grey;
+	
 }
 
-/* The navigation menu links */
+
+/*texto del menu lateral*/
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 20px;
+    color: black;
     display: block;
     transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
+
+/* texto de barra lateral cambia de color */
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: yellow ;
 }
 
-
-
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/* esto permite que quede el menu lateral en una parte de la pantalla*/
 #main {
     transition: margin-left .5s;
     padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
 }
 
 .btn-group{
 	margin-left: 3em;
 	position: relative;
 	bottom: -10em;
-
-
-	
-	
 }
+
 .btn-group button {
-    background-color: #f3ab04 ; /* Green background */
-    border: 1px solid yellow; /* Green border */
-    color: white; /* White text */
-    padding: 15px 30px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 250px; /* Set a width if needed */
-	display: block; /* Make the buttons appear below each other */
+    background-color: #f3ab04 ; 
+    border: 1px solid yellow;
+    color: white; 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    width: 250px; 
+	display: block; 
 	
 }
 
 .btn-group button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
+    border-bottom: none; 
 }
 
-/* Add a background color on hover */
+
 .btn-group button:hover {
     background-color:  #f3ab04;
 }
